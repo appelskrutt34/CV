@@ -14,10 +14,7 @@ function Study() {
       <h1 id="educationTitle">Education</h1>
       <div className="row justify-content-center margin-top-md">
         <div className="icon-card icon-card-white col-auto">
-          <i
-            className={["fa-solid", "fa-code", style.softwareIcon].join(" ")}
-            aria-hidden="true"
-          ></i>
+          <i className="fa-solid fa-code" aria-hidden="true"></i>
           <p className="font-m bold">Software Development and Mobile Apps</p>
           <div className="icon-card-text">
             <p>
@@ -30,12 +27,7 @@ function Study() {
         </div>
 
         <div className="icon-card icon-card-white col-auto">
-          <i
-            className={["fa-solid", "fa-brands fa-unity", style.gameIcon].join(
-              " "
-            )}
-            aria-hidden="true"
-          ></i>
+          <i className="fa-solid fa-brands fa-unity" aria-hidden="true"></i>
           <p className="font-m bold">Technology and Game Development</p>
           <div className="icon-card-text">
             <p>
@@ -46,15 +38,12 @@ function Study() {
           </div>
         </div>
         <div className="icon-card icon-card-white col-auto">
-          <i
-            className={["fa-solid", "fa-book", style.russianIcon].join(" ")}
-            aria-hidden="true"
-          ></i>
+          <i className="fa-solid fa-book" aria-hidden="true"></i>
           <p className="font-m bold">Russian Language and Culture</p>
           <div className="icon-card-text">
             <div className="icon-card-text">
               <p>
-                I studied russian level 1-3 for one year aswell as one month in
+                I studied russian level 1-3 for one year as well as one month in
                 Russia.
               </p>
             </div>
@@ -62,10 +51,7 @@ function Study() {
         </div>
 
         <div className="icon-card icon-card-white col-auto">
-          <i
-            className={["fa-solid", "fa-socks", style.soliderIcon].join(" ")}
-            aria-hidden="true"
-          ></i>
+          <i className="fa-solid fa-socks" aria-hidden="true"></i>
           <p className="font-m bold">
             Basic soldier training for the Home guard
           </p>
