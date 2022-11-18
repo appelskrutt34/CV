@@ -1,38 +1,144 @@
+@import "./bootstrap/bootstrap-grid.min.css";
+
+:root {
+  --black: #181818;
+  --purple: #6144d0;
+  --blue: #5392d2;
+  --green: #64d87f;
+  --yellow: #f8e846;
+  --orange: #e88c54;
+  --pink: #df4757;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
 .App {
+  background-color: white;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  color: var(--black);
   text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 3.8em;
+  font-weight: bold;
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 2em;
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  text-decoration: none;
+}
+header {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: var(--black);
+  min-height: 35vh;
+  max-height: 45vh;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+button:focus {
+  border-radius: 0.4em;
+  outline-style: solid;
+  outline-color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+a:focus {
+  border-radius: 0.4em;
+  outline-style: solid;
+  outline-color: white;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.white-bg {
+  background-color: white;
+}
+.margin-top-md {
+  margin-top: 3em;
+}
+.padding-vertical-container-sm {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.padding-vertical-container-lg {
+  padding-top: 9em;
+  padding-bottom: 9em;
+}
+.big-text {
+  font-weight: bold;
+  font-size: 6em;
+}
+.big-text-second {
+  font-weight: bold;
+  font-size: 2em;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.bold {
+  font-weight: bold;
+}
+.font-m {
+  font-size: 1.5em;
+}
+.display-flex {
+  display: flex !important;
+}
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block {
+  display: block;
+}
+.icon-card {
+  width: 320px;
+  margin: 1.2em;
+  color: var(--black);
+}
+.icon-card-white {
+  color: white;
+}
+.icon-card i {
+  font-size: 4em;
+}
+.icon-card-text {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .App {
+    font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
+  .padding-vertical-container-sm {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+  .padding-vertical-container-lg {
+    padding-top: 5em;
+    padding-bottom: 5em;
   }
 }

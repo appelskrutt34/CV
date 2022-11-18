@@ -1,0 +1,48 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--black);
+  padding: 1em;
+  min-height: 2.5em;
+}
+.nav button {
+  color: white;
+  padding: 0.6em;
+  border: none;
+  background: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+.navBtn {
+  font-size: 16px !important;
+  color: white;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 1em;
+  display: none;
+}
+.linkContainer {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .navBtn {
+    display: block;
+  }
+  .navBtn:focus {
+    outline: 0;
+  }
+  .linkContainer {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav {
+    justify-content: center;
+  }
+}
