@@ -72,7 +72,7 @@ function Study() {
           <div className="icon-card-text">
             <p>
               At P4 Skövde I learned the values and codes of conduct as well as
-              solider rules. I practiced shooting and handling a rifle, giving
+              soldier rules. I practiced shooting and handling a rifle, giving
               first aid and using medical supplies.
             </p>
           </div>

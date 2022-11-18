@@ -4,6 +4,7 @@ import Header from "./components/header/Header.jsx";
 import Work from "./components/work/Work.jsx";
 import Study from "./components/study/Study.jsx";
 import Specialization from "./components/specialization/Specialization.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Work />
         <Study />
       </main>
+      <Footer />
     </div>
   );
 }
