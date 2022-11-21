@@ -23,7 +23,7 @@ function Specialization() {
           <div className={style.cardText}>
             <ul className="font-m margin-top-md">
               <li>C#</li>
-              <li>ASP.Net</li>
+              <li>.NET</li>
               <li>Unity</li>
               <li>Azure DevOps</li>
             </ul>
