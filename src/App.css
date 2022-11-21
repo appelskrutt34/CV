@@ -44,17 +44,6 @@ header {
   max-height: 45vh;
   color: white;
 }
-footer {
-  padding: 1em !important;
-  display: flex;
-  justify-content: end;
-}
-footer a {
-  padding: 0.5em;
-  font-size: 1.4em;
-  color: white;
-}
-
 button:focus {
   border-radius: 0.4em;
   outline-style: solid;
@@ -131,9 +120,13 @@ a:focus {
 .block {
   display: block;
 }
+.gray {
+  color: gray;
+  font-size: 0.6em;
+}
 .icon-card {
   width: 320px;
-  margin: 1.2em;
+  margin: 1.8em;
   color: var(--black);
 }
 .icon-card-white {
@@ -144,6 +137,12 @@ a:focus {
 }
 .icon-card-text {
   text-align: left;
+}
+.icon-card-text p {
+  margin: 0;
+}
+.icon-card-text ul {
+  margin: 0;
 }
 @media (max-width: 768px) {
   .App {

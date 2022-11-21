@@ -1,4 +1,26 @@
+import { useEffect, useRef } from "react";
+
 function Work() {
+  const SogetiMonths = useRef(null);
+
+  useEffect(() => {
+    if (!SogetiMonths) return;
+    SogetiMonths.current.textContent = getMonthsFromDate(
+      new Date("2022-01-01")
+    );
+    SogetiMonths.current.textContent += " (Current job)";
+  }, []);
+
+  const getMonthsFromDate = (dateFrom) => {
+    let now = new Date();
+    let months =
+      now.getMonth() -
+      dateFrom.getMonth() +
+      12 * (now.getFullYear() - dateFrom.getFullYear());
+
+    return months > 12 ? parseInt(months / 12) + " Years" : months + " Months";
+  };
+
   return (
     <section
       id="profession"
@@ -7,68 +29,94 @@ function Work() {
     >
       <h1 id="professionalTitle">Professional experience</h1>
       <div className="row justify-content-center margin-top-md">
-        <div className="icon-card col-auto">
+        <div className="icon-card col-md-auto">
           <i className="fa-solid fa-heart"></i>
-          <p className="font-m bold">Sogeti</p>
+          <p className="font-m bold">
+            Sogeti
+            <span className="block gray" ref={SogetiMonths}></span>
+          </p>
           <div className="icon-card-text">
-            <p style={{ textAlign: "left" }}>
-              Today I'm working as a web developer consultant for Sogeti.
-              <span className="block"></span>I work with frontend- and backend
-              on several different websites that are built with{" "}
-              <span className="bold">ASP.NET MVC</span> and{" "}
-              <span className="bold">Optimizely</span>. My work inlcudes both
-              bug fixing, improving existing code and implementing new features.
-              <span className="bold"></span>
-              <span className="block"></span> I have also spent a lot of time
-              updating websites to follow <span className="bold">WCAG</span>{" "}
-              guidlines.
-            </p>
             <p>
-              Some tools I use at Sogeti:{" "}
-              <span className="bold">
-                Jira, Confluence, Azure DevOps, React, Optimizely, SQL Server,
-                ASP.NET, Git
-              </span>
+              <span className="bold block">Key responsibilities:</span>
+              Maintenance and development of new features on several different
+              websites.
+              <span className="block"></span>
+              Updating websites to follow WCAG guidlines.
             </p>
+            <br />
+            <p>
+              <span className="bold block">Tools:</span>
+            </p>
+            <ul>
+              <li>Optimizely</li>
+              <li>ASP.NET MVC</li>
+              <li>React</li>
+              <li>Azure DevOps</li>
+              <li>SQL Server</li>
+              <li>Git</li>
+              <li>Jira</li>
+              <li>Confluence</li>
+            </ul>
           </div>
         </div>
 
         <div className="icon-card col-auto">
           <i className="fa-solid fa-leaf"></i>
-          <p className="font-m bold">Bonigi</p>
+          <p className="font-m bold">
+            Bonigi
+            <span className="block gray">1.5 years</span>
+          </p>
           <div className="icon-card-text">
             <p>
-              At Bonigi I worked with maintaining and implementing new features
-              for their website in{" "}
-              <span className="bold">ASP.NET Webforms</span>.
-              <span className="block"></span> The work consisted of both
-              frontend- and backend development aswell as writing procedures in{" "}
-              <span className="bold">SQL server</span>.
+              <span className="bold block">Key responsibilities:</span>
+              Maintenance and development of Bonigis main website.
+              <span className="block"></span>
+              Writing procedures and processing data in the database.
+              <span className="block"></span>
+              Backend and database implementation of a customer project.
             </p>
+
+            <br />
             <p>
-              Some tools I used while working for Bonigi:{" "}
-              <span className="bold">
-                Jira, Confluence, Azure DevOps, Azure Functions, SQL Server,
-                Vue.Js, ASP.NET, Git
-              </span>
+              <span className="bold block">Tools:</span>
             </p>
+            <ul>
+              <li>ASP.NET Webforms</li>
+              <li>Vue.Js</li>
+              <li>Strapi</li>
+              <li>Azure DevOps</li>
+              <li>Azure Functions</li>
+              <li>SQL Server</li>
+              <li>Git</li>
+              <li>Jira</li>
+              <li>Confluence</li>
+            </ul>
           </div>
         </div>
 
         <div className="icon-card col-auto">
           <i className="fa-solid fa-industry"></i>
-          <p className="font-m bold">Husqvarna</p>
+          <p className="font-m bold">
+            Husqvarna<span className="block gray">5 months</span>
+          </p>
           <div className="icon-card-text">
             <p>
-              At Husqvarna I worked in <span className="bold">WPF</span> to
-              maintain their robotic lawnmower software.
+              <span className="bold block">Key responsibilities:</span>
+              Maintenance and development of Husqvarnas software for robotic
+              lawnmowers.
             </p>
+            <br />
             <p>
-              Some tools I used while working for Husqvarna:{" "}
-              <span className="bold">
-                Jira, Confluence, Azure DevOps, Scrum, WPF, Git
-              </span>
+              <span className="bold block">Tools:</span>
             </p>
+            <ul>
+              <li>WPF</li>
+              <li>Azure DevOps</li>
+              <li>Git</li>
+              <li>Jira</li>
+              <li>Confluence</li>
+              <li>Scrum</li>
+            </ul>
           </div>
         </div>
       </div>

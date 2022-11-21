@@ -15,67 +15,27 @@ function Study() {
       <div className="row justify-content-center margin-top-md">
         <div className="icon-card icon-card-white col-auto">
           <i className="fa-solid fa-code" aria-hidden="true"></i>
-          <p className="font-m bold">Software Development and Mobile Apps</p>
-          <div className="icon-card-text">
-            <p>
-              At Jönköping University I had a broad education over 3 years
-              covering everything from machine code and operating systems up to
-              web & app development.
-              <span className="block"></span>
-            </p>
-          </div>
+          <p className="font-m bold">
+            Software Development and Mobile Apps
+            <span className="block gray">
+              Bachelor's degree at Jönköpings university
+            </span>
+          </p>
+          <div className="icon-card-text"></div>
         </div>
-
         <div className="icon-card icon-card-white col-auto">
           <i className="fa-solid fa-brands fa-unity" aria-hidden="true"></i>
-          <p className="font-m bold">Technology and Game Development</p>
-          <div className="icon-card-text">
-            <p>
-              In Senior high school I learned the basics of programming and how
-              to make games with XNA game studio and Unity.
-              <span className="block"></span>
-            </p>
-          </div>
-        </div>
-        <div className="icon-card icon-card-white col-auto">
-          <i className="fa-solid fa-book" aria-hidden="true"></i>
-          <p className="font-m bold">Russian Language and Culture</p>
-          <div className="icon-card-text">
-            <div className="icon-card-text">
-              <p>
-                I studied russian level 1-3 for one year as well as one month in
-                Russia.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="icon-card icon-card-white col-auto">
-          <i className="fa-solid fa-socks" aria-hidden="true"></i>
           <p className="font-m bold">
-            Basic soldier training for the Home guard
+            Technology and Game Development
+            <span className="block gray">Senior high school</span>
           </p>
-          <div className="icon-card-text">
-            <p>
-              At P4 Skövde I learned the values and codes of conduct as well as
-              soldier rules. I practiced shooting and handling a rifle, giving
-              first aid and using medical supplies.
-            </p>
-          </div>
         </div>
-      </div>
-      <div className="row  justify-content-center">
         <div className="icon-card icon-card-white">
           <i className="fa-brands fa-ethereum" aria-hidden="true"></i>
-          <p className="font-m bold">Web3</p>
-          <div className="icon-card-text">
-            <div className="icon-card-text">
-              <p>
-                I'm currently learning as much as possible about web3 with a
-                focus on the ethereum network.
-              </p>
-            </div>
-          </div>
+          <p className="font-m bold">
+            Smart Contract Programming
+            <span className="block gray">Moralis Academy</span>
+          </p>
         </div>
       </div>
       <div className="row justify-content-center margin-top-md">
