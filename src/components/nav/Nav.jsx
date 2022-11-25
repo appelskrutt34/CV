@@ -25,7 +25,7 @@ function Nav() {
           onClick={() =>
             document
               .getElementById("specialization")
-              .scrollIntoView({ behavior: "smooth" })
+              .scrollIntoView({ behavior: "smooth", block: "center" })
           }
         >
           Specialization
@@ -34,7 +34,7 @@ function Nav() {
           onClick={() =>
             document
               .getElementById("profession")
-              .scrollIntoView({ behavior: "smooth" })
+              .scrollIntoView({ behavior: "smooth", block: "center" })
           }
         >
           Profession
@@ -43,7 +43,7 @@ function Nav() {
           onClick={() =>
             document
               .getElementById("education")
-              .scrollIntoView({ behavior: "smooth" })
+              .scrollIntoView({ behavior: "smooth", block: "center" })
           }
         >
           Education
