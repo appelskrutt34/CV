@@ -10,12 +10,11 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
-      <svg
-        viewBox="0 0 1872 143"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M0 0H1874V30L0 143V0Z" fill="#181818" />
+      <svg viewBox="0 0 1750 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0 -4.59883e-05H1750V6.50613L0 62V-4.59883e-05Z"
+          fill="#181818"
+        />
       </svg>
       <main>
         <Specialization />

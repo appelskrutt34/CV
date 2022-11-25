@@ -1,35 +1,21 @@
 .card {
   color: white;
   border-radius: 10px;
-  height: 35em;
+  height: 40em;
   width: 21em;
   margin: 1.2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--black);
 }
 .card svg {
+  padding: 2em;
   width: 10em;
-  margin-top: 4em;
 }
 .cardText {
   text-align: left;
   margin: 1.6em;
 }
-.cardPink {
-  background: linear-gradient(-45deg, var(--pink) 30%, var(--orange) 100%);
-}
-.cardBlue {
-  background: linear-gradient(-45deg, #5392d2 0%, #6144d0 80%);
-}
-.cardGreen {
-  background: linear-gradient(-45deg, #64d87f 10%, #5392d2 100%);
-}
-
-.progressBar {
-  height: 1em;
-  width: 100%;
-  background-color: white;
-}
-.progressBarInner {
-  height: 100%;
-  background-color: var(--black);
+.cardText p {
+  padding: 0;
+  margin: 0.3em;
 }

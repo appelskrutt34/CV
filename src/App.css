@@ -40,8 +40,6 @@ header {
   align-items: center;
   justify-content: center;
   background-color: var(--black);
-  min-height: 35vh;
-  max-height: 45vh;
   color: white;
 }
 button:focus {
@@ -143,6 +141,15 @@ a:focus {
 }
 .icon-card-text ul {
   margin: 0;
+}
+.pink {
+  background: linear-gradient(-45deg, var(--pink) 30%, var(--orange) 100%);
+}
+.blue {
+  background: linear-gradient(-45deg, #5392d2 0%, #6144d0 80%);
+}
+.green {
+  background: linear-gradient(-45deg, #64d87f 10%, #5392d2 100%);
 }
 @media (max-width: 768px) {
   .App {

@@ -25,7 +25,7 @@ function Work() {
     <section
       id="profession"
       aria-labelledby="professionalTitle"
-      className="container-fluid padding-vertical-container-lg white-bg"
+      className="container-fluid padding-vertical-container-sm white-bg"
     >
       <h1 id="professionalTitle">Professional experience</h1>
       <div className="row justify-content-center margin-top-md">

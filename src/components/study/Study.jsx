@@ -8,7 +8,7 @@ function Study() {
       className={[
         style.studyContainer,
         "container-fluid",
-        "padding-vertical-container-lg",
+        "padding-vertical-container-sm",
       ].join(" ")}
     >
       <h1 id="educationTitle">Education</h1>

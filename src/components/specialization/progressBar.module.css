@@ -1,12 +1,11 @@
 .bar {
-  border-radius: 15px;
+  border-radius: 0.5em;
   background-color: var(--black);
   height: 100%;
 }
-
 .barContainer {
-  border-radius: 15px;
-  height: 1em;
+  border-radius: 0.5em;
+  height: 0.8em;
   width: 100%;
   background-color: white;
 }
